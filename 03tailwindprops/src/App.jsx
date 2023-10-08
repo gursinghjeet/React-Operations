@@ -6,12 +6,13 @@ import Card from './components/card'
 
 function App() {
   const [count, setCount] = useState(0)
+  let abj ={a:1,b:56}
 
   return (
     <>
       <h1 className='bg-green-800 text-black p-4 rounded-xl mb-4'>TailWind Test</h1>
 
-      <Card/>
+      <Card channel="chaiaurcode" abje={abj} />
       <Card/>
 
 
